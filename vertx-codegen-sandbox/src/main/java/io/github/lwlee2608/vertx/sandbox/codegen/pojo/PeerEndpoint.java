@@ -5,7 +5,7 @@ import io.vertx.codegen.annotations.DataObject;
 //import lombok.Data;
 
 //@Data
-@DataObject
+@DataObject(generateConverter = true)
 //@ProtobufGen
 public class PeerEndpoint {
     private Integer schemaVersion;
