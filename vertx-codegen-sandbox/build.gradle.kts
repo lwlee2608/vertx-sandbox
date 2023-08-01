@@ -7,7 +7,7 @@ dependencies {
     annotationProcessor("io.vertx:vertx-service-proxy:${property("vertx.version")}")
     implementation("io.vertx:vertx-core:${property("vertx.version")}")
     implementation("io.vertx:vertx-codegen:${property("vertx.version")}")
-//    implementation("io.vertx:vertx-codegen-protobuf:${property("vertx.version")}")
+    implementation("io.vertx:vertx-codegen-protobuf:${property("vertx.version")}")
 
     implementation("org.slf4j:slf4j-api:1.7.25")
     compileOnly("org.projectlombok:lombok:${property("lombok.version")}")
