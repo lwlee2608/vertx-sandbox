@@ -5,7 +5,6 @@ import io.vertx.codegen.protobuf.annotations.ProtobufGen;
 //import lombok.Data;
 
 //@Data
-//@DataObject(generateConverter = true)
 @DataObject
 @ProtobufGen
 public class PeerEndpoint {
